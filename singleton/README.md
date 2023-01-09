@@ -6,6 +6,12 @@
 
 这种模式涉及到一个单一的类，该类负责创建自己的对象，同时确保只有单个对象被创建。这个类提供了一种访问其唯一的对象的方式，可以直接访问，不需要实例化该类的对象。
 
+<img src="https://www.runoob.com/wp-content/uploads/2014/08/62576915-36E0-4B67-B078-704699CA980A.jpg">
+
+
+
+图片来源：[菜鸟教程-单例模式](https://www.runoob.com/design-pattern/singleton-pattern.html)
+
 ### 单例模式的结构
 
 - 单例类。只能创建一个实例的类
