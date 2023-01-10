@@ -16,6 +16,7 @@
 
 - 单例
 - 原型
+- 简单工厂
 - 工厂方式
 - 抽象工厂
 - 建造者
@@ -297,8 +298,8 @@ Unifield Modeling Language，统一建模语言
 创建型模式分为：
 
 * 单例模式 Singleton 
+* 简单工厂 Simple Factory
 * 工厂方法模式 Factory Method 
 * 抽象工程模式 Abstract Factory
 * 原型模式 Prototype 
 * 建造者模式 Builder
-

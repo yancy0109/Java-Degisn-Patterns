@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>factory</artifactId>
+    <artifactId>factory-method</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
