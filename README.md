@@ -303,3 +303,13 @@ Unifield Modeling Language，统一建模语言
 * 抽象工程模式 Abstract Factory
 * 原型模式 Prototype 
 * 建造者模式 Builder
+
+### 结构模式
+
+* 适配器 Adapter
+* 桥接模式 Bridge
+* 组合模式 Composite
+* 装饰模式 Decorator
+* 外观模式 Facade
+* 享元模式 Flyweight
+* 代理模式 Proxy
