@@ -17,6 +17,7 @@
         <module>builder</module>
         <module>proxy</module>
         <module>adapter</module>
+        <module>decorator</module>
     </modules>
     <dependencies>
         <dependency>
