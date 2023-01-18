@@ -18,6 +18,7 @@
         <module>proxy</module>
         <module>adapter</module>
         <module>decorator</module>
+        <module>bridge</module>
     </modules>
     <dependencies>
         <dependency>
