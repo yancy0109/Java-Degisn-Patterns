@@ -19,6 +19,7 @@
         <module>adapter</module>
         <module>decorator</module>
         <module>bridge</module>
+        <module>facade</module>
     </modules>
     <dependencies>
         <dependency>
