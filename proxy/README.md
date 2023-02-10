@@ -301,43 +301,36 @@ CGLIB是一个功能强大，高性能的代码生成包。它为没有实现接
  */
 public class CglibProxyFactory {
 
-    // 塔对象
-    private IvoryTower ivoryTower;
+  // 塔内最大人数
+  // 仅方便演示
+  private static final int MAX_NUM = 3;
 
-    // 塔内最大人数
-    // 仅方便演示
-    private static final int MAX_NUM = 3;
+  // 当前塔内人数
+  // 其实放在这里也许不太合适，不过仅做演示不再完善
+  private int num;
 
-    // 当前塔内人数
-    // 其实放在这里也许不太合适，不过仅做演示不再完善
-    private int num;
+  IvoryTower getWizardTowerProxy() {
+    Enhancer enhancer = new Enhancer();
 
-    public CglibProxyFactory(IvoryTower ivoryTower) {
-        this.ivoryTower = ivoryTower;
-    }
+    enhancer.setSuperclass(IvoryTower.class);
 
-    IvoryTower getWizardTowerProxy() {
-        Enhancer enhancer = new Enhancer();
+    enhancer.setCallback(new MethodInterceptor() {
+      @Override
+      public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
+        if (num < MAX_NUM) {
+          Object result = methodProxy.invokeSuper(o, objects);
+          num++;
+          return result;
+        } else {
+          System.out.println("巫师塔人数已满，不允许进入");
+          return null;
+        }
+      }
+    });
 
-        enhancer.setSuperclass(ivoryTower.getClass());
-
-        enhancer.setCallback(new MethodInterceptor() {
-            @Override
-            public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
-                if (num < MAX_NUM) {
-                    Object result = method.invoke(ivoryTower, objects);
-                    num++;
-                    return result;
-                } else {
-                    System.out.println("巫师塔人数已满，不允许进入");
-                    return null;
-                }
-            }
-        });
-
-         IvoryTower ivoryTower = (IvoryTower) enhancer.create();
-        return ivoryTower;
-    }
+    IvoryTower ivoryTower = (IvoryTower) enhancer.create();
+    return ivoryTower;
+  }
 }
 ```
 
@@ -624,7 +617,7 @@ public class App {
     public static void main(String[] args) {
         // 动态代理
         // CGlib代理
-        CglibProxyFactory cglibProxyFactory = new CglibProxyFactory(new IvoryTower());
+        CglibProxyFactory cglibProxyFactory = new CglibProxyFactory();
         IvoryTower wizardTowerCglibProxy = cglibProxyFactory.getWizardTowerProxy();
         wizardTowerCglibProxy.enter(new Wizard("奇异博士"));  // 奇异博士进入了巫师塔
         wizardTowerCglibProxy.enter(new Wizard("甘道夫"));  // 甘道夫进入了巫师塔

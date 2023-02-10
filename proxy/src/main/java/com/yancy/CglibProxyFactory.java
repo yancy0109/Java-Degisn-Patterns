@@ -13,9 +13,6 @@ import java.lang.reflect.Method;
  */
 public class CglibProxyFactory {
 
-    // 塔对象
-    private IvoryTower ivoryTower;
-
     // 塔内最大人数
     // 仅方便演示
     private static final int MAX_NUM = 3;
@@ -24,20 +21,16 @@ public class CglibProxyFactory {
     // 其实放在这里也许不太合适，不过仅做演示不再完善
     private int num;
 
-    public CglibProxyFactory(IvoryTower ivoryTower) {
-        this.ivoryTower = ivoryTower;
-    }
-
     IvoryTower getWizardTowerProxy() {
         Enhancer enhancer = new Enhancer();
 
-        enhancer.setSuperclass(ivoryTower.getClass());
+        enhancer.setSuperclass(IvoryTower.class);
 
         enhancer.setCallback(new MethodInterceptor() {
             @Override
             public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
                 if (num < MAX_NUM) {
-                    Object result = method.invoke(ivoryTower, objects);
+                    Object result = methodProxy.invokeSuper(o, objects);
                     num++;
                     return result;
                 } else {

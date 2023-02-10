@@ -25,7 +25,7 @@ public class App {
         wizardTowerJDKProxy.enter(new Wizard("赫敏"));  // 巫师塔人数已满，不允许进入
 
         // CGlib代理
-        CglibProxyFactory cglibProxyFactory = new CglibProxyFactory(new IvoryTower());
+        CglibProxyFactory cglibProxyFactory = new CglibProxyFactory();
         IvoryTower wizardTowerCglibProxy = cglibProxyFactory.getWizardTowerProxy();
         wizardTowerCglibProxy.enter(new Wizard("奇异博士"));  // 奇异博士进入了巫师塔
         wizardTowerCglibProxy.enter(new Wizard("甘道夫"));  // 甘道夫进入了巫师塔
