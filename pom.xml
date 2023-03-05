@@ -20,6 +20,11 @@
         <module>decorator</module>
         <module>bridge</module>
         <module>facade</module>
+        <module>observer</module>
+        <module>composite</module>
+        <module>flyweight</module>
+        <module>template</module>
+        <module>strategy</module>
     </modules>
     <dependencies>
         <dependency>
