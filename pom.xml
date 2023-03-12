@@ -25,6 +25,10 @@
         <module>flyweight</module>
         <module>template</module>
         <module>strategy</module>
+        <module>command</module>
+        <module>chain</module>
+        <module>state</module>
+        <module>mediator</module>
     </modules>
     <dependencies>
         <dependency>
