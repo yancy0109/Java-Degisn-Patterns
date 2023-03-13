@@ -29,6 +29,8 @@
         <module>chain</module>
         <module>state</module>
         <module>mediator</module>
+        <module>iterator</module>
+        <module>visitor</module>
     </modules>
     <dependencies>
         <dependency>
