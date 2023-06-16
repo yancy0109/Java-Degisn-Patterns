@@ -23,7 +23,7 @@
 
 ### 实现
 
-![image-20230110103756371](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/11721/image-20230110103756371.png)Eg.
+![image-20230110103756371](https://raw.githubusercontent.com/yancy0109/image/main/11721/image-20230110103756371.png)Eg.
 
 #### 抽象产品
 

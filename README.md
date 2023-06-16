@@ -66,7 +66,7 @@ Unifield Modeling Language，统一建模语言
 
 在UML类图中，类使用包含类名、属性(field) 和方法(method) 且带有分割线的矩形来表示，比如下图表示一个Employee类，它包含name,age和address这3个属性，以及work()方法。 
 
-![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/11721/Employee.jpg)
+![](https://raw.githubusercontent.com/yancy0109/image/main/11721/Employee.jpg)
 
 属性/方法名称前加的加号和减号表示了这个属性/方法的可见性，UML类图中表示可见性的符号有三种：
 
@@ -88,7 +88,7 @@ Unifield Modeling Language，统一建模语言
 
 **举个栗子：**
 
-![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/11721/demo.png)
+![](https://raw.githubusercontent.com/yancy0109/image/main/11721/demo.png)
 
 上图Demo类定义了三个方法：
 
@@ -106,13 +106,13 @@ Unifield Modeling Language，统一建模语言
 
 ###### 单向关联
 
-![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/11721/customer_address.png)
+![](https://raw.githubusercontent.com/yancy0109/image/main/11721/customer_address.png)
 
 在UML类图中单向关联用一个带箭头的实线表示。上图表示每个顾客都有一个地址，这通过让Customer类持有一个类型为Address的成员变量类实现。
 
 ###### 双向关联
 
-![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/11721/customer_product.png)
+![](https://raw.githubusercontent.com/yancy0109/image/main/11721/customer_product.png)
 
 从上图中我们很容易看出，所谓的双向关联就是双方各自持有对方类型的成员变量。
 
@@ -120,7 +120,7 @@ Unifield Modeling Language，统一建模语言
 
 ###### 自关联
 
-![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/11721/node.png)
+![](https://raw.githubusercontent.com/yancy0109/image/main/11721/node.png)
 
 自关联在UML类图中用一个带有箭头且指向自身的线表示。上图的意思就是Node类包含类型为Node的成员变量，也就是“自己包含自己”。
 
@@ -132,7 +132,7 @@ Unifield Modeling Language，统一建模语言
 
 在 UML 类图中，聚合关系可以用带空心菱形的实线来表示，菱形指向整体。下图所示是大学和教师的关系图：
 
-![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/11721/image-20191229173422328.png)
+![](https://raw.githubusercontent.com/yancy0109/image/main/11721/image-20191229173422328.png)
 
 ##### 组合关系
 
@@ -142,7 +142,7 @@ Unifield Modeling Language，统一建模语言
 
 在 UML 类图中，组合关系用带实心菱形的实线来表示，菱形指向整体。下图所示是头和嘴的关系图：
 
-![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/11721/image-20191229173455149.png)
+![](https://raw.githubusercontent.com/yancy0109/image/main/11721/image-20191229173455149.png)
 
 
 
@@ -152,7 +152,7 @@ Unifield Modeling Language，统一建模语言
 
 在 UML 类图中，依赖关系使用带箭头的虚线来表示，箭头从使用类指向被依赖的类。下图所示是司机和汽车的关系图，司机驾驶汽车：
 
-![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/11721/image-20191229173518926.png)
+![](https://raw.githubusercontent.com/yancy0109/image/main/11721/image-20191229173518926.png)
 
 ##### 继承关系
 
@@ -160,7 +160,7 @@ Unifield Modeling Language，统一建模语言
 
 在 UML 类图中，泛化关系用带空心三角箭头的实线来表示，箭头从子类指向父类。在代码实现时，使用面向对象的继承机制来实现泛化关系。例如，Student 类和 Teacher 类都是 Person 类的子类，其类图如下图所示：
 
-![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/11721/image-20191229173539838.png)
+![](https://raw.githubusercontent.com/yancy0109/image/main/11721/image-20191229173539838.png)
 
 
 
@@ -170,7 +170,7 @@ Unifield Modeling Language，统一建模语言
 
 在 UML 类图中，实现关系使用带空心三角箭头的虚线来表示，箭头从实现类指向接口。例如，汽车和船实现了交通工具，其类图如图 9 所示。
 
-![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/11721/image-20191229173554296.png)
+![](https://raw.githubusercontent.com/yancy0109/image/main/11721/image-20191229173554296.png)
 
 ## 软件设计原则
 
@@ -188,7 +188,7 @@ Unifield Modeling Language，统一建模语言
 
 #### Eg.
 
-![image-20230107201149789](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/11721/image-20230107201149789.png)
+![image-20230107201149789](https://raw.githubusercontent.com/yancy0109/image/main/11721/image-20230107201149789.png)
 
 ### 里氏代换原则
 
@@ -202,11 +202,11 @@ Unifield Modeling Language，统一建模语言
 
 #### Eg.
 
-![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/11721/%E6%AD%A3%E6%96%B9%E5%BD%A2%E4%B8%8D%E6%98%AF%E9%95%BF%E6%96%B9%E5%BD%A2.png)
+![](https://raw.githubusercontent.com/yancy0109/image/main/11721/%E6%AD%A3%E6%96%B9%E5%BD%A2%E4%B8%8D%E6%98%AF%E9%95%BF%E6%96%B9%E5%BD%A2.png)
 
 改进为如下情况，避免了子类对于父类的重写而导致在子类替换父类时，会引起与预期函数调用效果不同的结果发生。
 
-![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/11721/正方形不是长方形改进.png)
+![](https://raw.githubusercontent.com/yancy0109/image/main/11721/正方形不是长方形改进.png)
 
 ### 依赖倒转原则
 
@@ -218,7 +218,7 @@ Unifield Modeling Language，统一建模语言
 
 其他的例子还如平时我们在Java开发中各层之间的依赖，我们只会注入抽象类，而不会注入具体Impl实现类。
 
-<img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/11721/%E4%BE%9D%E8%B5%96%E5%80%92%E8%BD%AC%E5%8E%9F%E5%88%99%E6%94%B9%E8%BF%9B.png">
+<img src="https://raw.githubusercontent.com/yancy0109/image/main/11721/%E4%BE%9D%E8%B5%96%E5%80%92%E8%BD%AC%E5%8E%9F%E5%88%99%E6%94%B9%E8%BF%9B.png">
 
 ### 接口隔离原则
 
@@ -228,11 +228,11 @@ Unifield Modeling Language，统一建模语言
 
 #### Eg. 
 
-<img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/11721/%E6%8E%A5%E5%8F%A3%E9%9A%94%E7%A6%BB%E5%8E%9F%E5%88%99.png">
+<img src="https://raw.githubusercontent.com/yancy0109/image/main/11721/%E6%8E%A5%E5%8F%A3%E9%9A%94%E7%A6%BB%E5%8E%9F%E5%88%99.png">
 
 将不同方法的接口进行拆解，防止单一接口类导致一个类实现接口方法时被迫依赖于不使用的方法之上。
 
-<img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/11721/%E6%8E%A5%E5%8F%A3%E9%9A%94%E7%A6%BB%E5%8E%9F%E5%88%991.png">
+<img src="https://raw.githubusercontent.com/yancy0109/image/main/11721/%E6%8E%A5%E5%8F%A3%E9%9A%94%E7%A6%BB%E5%8E%9F%E5%88%991.png">
 
 ### 迪米特法则
 
@@ -248,7 +248,7 @@ Unifield Modeling Language，统一建模语言
 
 #### Eg.
 
-<img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/11721/%E8%BF%AA%E7%B1%B3%E7%89%B9%E6%B3%95%E5%88%99.png" alt="image-20191229173554296">
+<img src="https://raw.githubusercontent.com/yancy0109/image/main/11721/%E8%BF%AA%E7%B1%B3%E7%89%B9%E6%B3%95%E5%88%99.png" alt="image-20191229173554296">
 
 
 
@@ -277,11 +277,11 @@ Unifield Modeling Language，统一建模语言
 
 继承复用：不同能源类型与不同颜色类型，仅聚合复用会产生大量子类。
 
-<img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/11721/%E5%90%88%E6%88%90%E5%A4%8D%E7%94%A8%E5%8E%9F%E5%88%99.png" alt="image-20191229173554296">
+<img src="https://raw.githubusercontent.com/yancy0109/image/main/11721/%E5%90%88%E6%88%90%E5%A4%8D%E7%94%A8%E5%8E%9F%E5%88%99.png" alt="image-20191229173554296">
 
 改进为 聚合复用。如果在Petrol和Electric后出现新的能源车辆，我们还可以对能源方式进行聚合。
 
-<img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/11721/%E5%90%88%E6%88%90%E5%A4%8D%E7%94%A8%E5%8E%9F%E5%88%991.png">
+<img src="https://raw.githubusercontent.com/yancy0109/image/main/11721/%E5%90%88%E6%88%90%E5%A4%8D%E7%94%A8%E5%8E%9F%E5%88%991.png">
 
 
 

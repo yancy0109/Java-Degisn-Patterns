@@ -205,7 +205,7 @@ public class App {
 
 深拷贝与浅拷贝的区别就在于对于引用对象的处理，浅拷贝虽然得到了一个新对象，但是对象内的引用属性与原型对象指向的仍为同一个对象。
 
-![image-20230112174714660](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/11721/image-20230112174714660.png)
+![image-20230112174714660](https://raw.githubusercontent.com/yancy0109/image/main/11721/image-20230112174714660.png)
 
 [图片来源]: https://blog.csdn.net/m0_57711043/article/details/116976491	"原型模式（浅拷贝和深拷贝）纯干货"
 

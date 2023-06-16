@@ -25,7 +25,7 @@
 >
 > 考虑一下你拥有一种具有不同附魔的武器，并且应该允许将具有不同附魔的不同武器混合使用。 你会怎么做？ 为每个附魔创建每种武器的多个副本，还是只是创建单独的附魔并根据需要为武器设置它？ 桥接模式使您可以实现第二种方式。
 
-![image-20230118201145755](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/11721/image-20230118201145755.png)
+![image-20230118201145755](https://raw.githubusercontent.com/yancy0109/image/main/11721/image-20230118201145755.png)
 
 #### Abstraction
 

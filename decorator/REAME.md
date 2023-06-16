@@ -21,7 +21,7 @@
 
 > 一个巨魔，它有时空手而来，有时携带一根棍子，武装一个巨魔没有必要去创建一个新的巨魔，而是通过装饰器动态修饰它。
 
-![image-20230118130231960](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/11721/image-20230118130231960.png)
+![image-20230118130231960](https://raw.githubusercontent.com/yancy0109/image/main/11721/image-20230118130231960.png)
 
 #### Component
 

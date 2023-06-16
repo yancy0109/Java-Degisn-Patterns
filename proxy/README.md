@@ -24,7 +24,7 @@
 
 Eg. 假如存在一座巫师塔，巫师们会进入巫师塔学习，但是巫师塔最多只能容纳三名巫师，我们可以通过代理类进行控制。
 
-![image-20230113224859174](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/11721/image-20230113224859174.png)
+![image-20230113224859174](https://raw.githubusercontent.com/yancy0109/image/main/11721/image-20230113224859174.png)
 
 #### 抽象主题
 

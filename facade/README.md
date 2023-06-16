@@ -15,7 +15,7 @@
 
 > 智能家具系统就是对外提供了一个统一的接口，可以协调多个子系统运作。
 
-![image-20230125212236484](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/11721/image-20230125212236484.png)
+![image-20230125212236484](https://raw.githubusercontent.com/yancy0109/image/main/11721/image-20230125212236484.png)
 
 #### 子系统角色
 

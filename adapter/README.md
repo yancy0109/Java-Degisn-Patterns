@@ -20,7 +20,7 @@
 
 > 实例：当前一台电脑只能读取SD卡，而读取TF卡中内容就需要通过适配器模式实现，通过创建读卡器，读取TF卡中的内容。
 
-![image-20230115111306872](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/11721/image-20230115111306872.png)
+![image-20230115111306872](https://raw.githubusercontent.com/yancy0109/image/main/11721/image-20230115111306872.png)
 
 #### 目标接口
 
@@ -137,7 +137,7 @@ public class App {
 
 ### 对象适配器模式
 
-![image-20230115113712935](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/11721/image-20230115113712935.png)
+![image-20230115113712935](https://raw.githubusercontent.com/yancy0109/image/main/11721/image-20230115113712935.png)
 
 ### 适配器类
 

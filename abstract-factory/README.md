@@ -19,7 +19,7 @@
 
 ### 实现
 
-![image-20230110111951941](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/11721/image-20230110111951941.png)
+![image-20230110111951941](https://raw.githubusercontent.com/yancy0109/image/main/11721/image-20230110111951941.png)
 
 Eg.
 
